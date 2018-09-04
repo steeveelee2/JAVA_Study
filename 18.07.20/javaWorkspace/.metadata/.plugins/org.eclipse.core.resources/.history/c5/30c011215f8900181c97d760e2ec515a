@@ -1,0 +1,23 @@
+package ncs.test9;
+
+import java.util.Scanner;
+
+public class CalcTest {
+
+	public static void main(String[] args) {
+		// 계산기 실행용 메소드
+		Calculate c = new Calculate();
+
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("숫자 2개를 입력하세요 ' '구분 ");
+		
+		
+		
+		c.sum(a, b);
+		c.subtract(a, b);
+		c.multiply(a, b);
+		c.divide(a, b);
+	}
+
+}

@@ -1,0 +1,23 @@
+package ncs.test10;
+
+public class Book {
+	private String category;
+	private String bookName;
+	private double bookPrice;
+	private double bookDiscountRate;
+
+	public Book(){}
+	
+	public Book(){
+		
+	}
+/*
+ * Book
++Book()
++Book(category:StringbookName:String,
+bookPrice:double,
+bookDiscountRate:double)
++getXXX()
++setXXX() 
+ */
+}

@@ -1,0 +1,32 @@
+package com.kh.member.model.vo;
+
+public class Gold {
+	private String name;
+	private String grade;
+	private int point;
+	private double incen;
+	
+	public Gold(){}
+	public Gold(String name, String grade, int point){
+		this.name = name;
+		this.grade = grade;
+		this.point = point;
+		this.incen = point * 0.05;
+	}
+	
+	public String getName(){
+		return name;
+	}
+	
+	public String getGrade(){
+		return grade;
+	}
+	
+	public int getPoint(){
+		return point;
+	}
+	
+	public double getIncen(){
+		return incen;
+	}
+}

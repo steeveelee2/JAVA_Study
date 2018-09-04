@@ -1,0 +1,25 @@
+package com.kh.drink;
+
+public class Coffee {
+	String name; // 커피 이름
+	int price;
+	double water; // 물의 양
+	String origin; // 원산지
+	int syrup; // 시럽의 양 (펌프 횟수)
+	boolean isIce;
+	
+	public Coffee(){
+		name = "아메리카노";
+		price = 3000;
+		water = 1.5;
+		origin = "한국";
+		syrup = 0;
+		isIce = false;
+	}
+	
+	public Coffee(String name, ){
+		
+	}
+	
+	
+}

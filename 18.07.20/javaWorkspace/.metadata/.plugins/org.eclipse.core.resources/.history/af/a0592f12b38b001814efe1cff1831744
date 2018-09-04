@@ -1,0 +1,7 @@
+package com.kh.animal.model.vo;
+
+public class Cat {
+	private String name;
+	private String type;
+	private double weight;
+}

@@ -1,0 +1,26 @@
+package com.kh.member.run;
+
+import com.kh.member.model.vo.*;
+
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// 실행 전용 메소드
+		Member m = new Member();
+		Member m2 = new Member("홍길동", "hong2018",
+				 "1234", "hong2018@test.com", "01011112222"
+				, 'M', 50);
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("m2 이름 변경 : ");
+		m2.setName(sc.next());
+		
+		System.out.println("변경된 이름 : "+m2.getName());
+	}
+	
+	
+
+}

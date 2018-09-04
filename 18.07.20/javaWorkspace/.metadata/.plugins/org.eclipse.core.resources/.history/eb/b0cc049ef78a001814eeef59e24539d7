@@ -1,0 +1,9 @@
+package com.kh.member.run;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// 각 회원별 
+	}
+
+}

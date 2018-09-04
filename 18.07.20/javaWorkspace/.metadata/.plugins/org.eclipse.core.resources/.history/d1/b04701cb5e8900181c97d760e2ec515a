@@ -1,0 +1,7 @@
+package ncs.test9;
+
+public class Calculate {
+	
+	public Calculate(){}
+	
+}

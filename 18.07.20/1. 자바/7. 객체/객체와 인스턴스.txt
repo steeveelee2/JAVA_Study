@@ -1,0 +1,25 @@
+@ 객체와 인스턴스
+-> 우리가 흔히 객체 = 인스턴스 라는 생각을 하기 쉬우나 엄연히 다름
+-> 객체는 실체화 하기전 이라고 보면 되고 인스턴스는 실체화 한 형태를 말한다.
+
+예를 들면
+
+
+public class house
+{
+	String address;
+	int size;
+	int window;
+}
+
+라는 클래스가 있을때
+
+
+public static void main(String [] args)
+{
+	house h;    // house 클래스를 이용하여 h 변수를 만드는데 이때 h변수를 객체(Object) 라고 한다.
+	h = new house(); // new를 이용하여 실체화 하는것을 인스턴스화 라고 하며 h변수는 이제 인스턴스가 된다.
+}
+
+
+* 클래스는 객체를 만들기 위한 도면(틀 또는 설계도) 이라고 보면 된다. 

@@ -1,0 +1,41 @@
+package ncs.test10;
+
+public class Book {
+	private String category;
+	private String bookName;
+	private double bookPrice;
+	private double bookDiscountRate;
+
+	public Book(){}
+	
+	public Book(String category, 
+			String bookName,
+			double bookPrice,
+			double bookDiscountRate){
+		this.category = category;
+		this.bookName = bookName;
+		this.bookPrice = bookPrice;
+		this.bookDiscountRate = bookDiscountRate;
+	}
+	
+	public String getCategory(){
+		return category;
+	}
+	
+	public String getBookName(){
+		return bookName;
+	}
+	
+	public double getBookPrice(){
+		return bookPrice;
+	}
+	
+	public double getBookDiscountRate(){
+		
+	}
+/*
+ * Book
++getXXX()
++setXXX() 
+ */
+}

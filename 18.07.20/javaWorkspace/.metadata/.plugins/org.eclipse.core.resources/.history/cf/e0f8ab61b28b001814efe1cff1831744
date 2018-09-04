@@ -1,0 +1,15 @@
+package com.kh.animal.model.vo;
+
+public class Dog {
+	// 1. 필드 변수 | 멤버 변수
+	private String name;
+	private String type;
+	private double wei;
+	
+	// ------ [초기화 블록] ------ (생략 가능)
+	
+	// 2. 생성자
+	
+	// 3. 메소드
+	
+}

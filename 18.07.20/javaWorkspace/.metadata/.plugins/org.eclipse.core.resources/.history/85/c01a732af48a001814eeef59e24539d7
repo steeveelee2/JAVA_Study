@@ -1,0 +1,8 @@
+package com.kh.member.model.vo;
+
+public class Silver {
+	private String name;
+	private String grade;
+	private int point;
+	private double incen;
+}

@@ -1,6 +1,9 @@
 # bin folder
 /bin
 
+#jeo-jak-gweon
+*.pdf
+
 # Compiled class file
 *.class
 

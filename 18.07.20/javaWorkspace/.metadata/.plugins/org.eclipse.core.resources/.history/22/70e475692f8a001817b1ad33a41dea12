@@ -1,0 +1,9 @@
+package com.kh.drink;
+
+public class StarBigs {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,18 @@
+package ncs.test10;
+
+public class BookUpdate {
+	private Book bookData;
+
+	public BookUpdate(){ }
+	
+	public BookUpdate(Book bookData){
+		this.bookData = bookData;
+	}
+
+	public Book getBookData(){
+		
+	}
+	+getBookData():Book
+	+updataBookPrice():void
+	+getXXX() +setXXX()
+}

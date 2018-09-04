@@ -1,0 +1,33 @@
+package com.kh.drink;
+
+public class StarBigs {
+
+	public static void main(String[] args) {
+		// 1. 일반 커피 주문
+		
+		System.out.println("커피 하나 주세요~");
+		Coffee cof1 = new Coffee();
+		
+		System.out.println("---- 커피 내용 확인 ----");
+		cof1.coffeeInfo();
+		cof1.setName("에스프레소");
+		
+		cof1.coffeeInfo();
+		
+		// 2. 상세한 내용의 커피를 주문 받을 경우
+		System.out.println(
+			"아이스 아메리카노, 물 2배, 시럽 2샷, 얼음 추가");
+		
+		Coffee cof2 = new Coffee("아이스 아메리카노",
+								);
+		
+		private String name; // 커피 이름
+		private int price;
+		private double water; // 물의 양
+		private String origin; // 원산지
+		private int syrup; // 시럽의 양 (펌프 횟수)
+		private boolean isIce;
+		
+	}
+
+}

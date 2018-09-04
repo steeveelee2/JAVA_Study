@@ -1,0 +1,68 @@
+package com.kh.member.model.vo;
+
+public class VIP/* extends Member */{
+	
+	public VIP(){
+		this("홍길동");
+	}
+	
+	public VIP(String name){
+		//this();
+	}
+	
+}
+
+/*
+public class VIP {
+	private String name;  // 회원 명
+	private String grade; // 자신의 등급
+	private int point;    // 회원의 포인트
+	private double incen; // 등급에 따른 포인트 이자 적립율
+	
+	public VIP(){ }
+	
+	public VIP(String name, String grade, int point){
+		this.name = name;
+		this.grade = grade;
+		this.point = point;
+		this.incen = point * 0.1;
+	}
+	
+	// Getter & Setter
+	public String getName(){
+		return name;
+	}
+	
+	public String getGrade(){
+		return grade;
+	}
+	
+	public int getPoint(){
+		return point;
+	}
+	
+	public double getIncen(){
+		return incen;
+	}
+	
+	public void setName(String name){
+		this.name = name;
+	}
+	
+	public void setGrade(String grade){
+		this.grade = grade;
+	}
+	
+	public void setPoint(int point){
+		this.point = point;
+	}
+	
+	public void setIncen(double incen){
+		this.incen = incen;
+	}
+}*/
+
+
+
+
+

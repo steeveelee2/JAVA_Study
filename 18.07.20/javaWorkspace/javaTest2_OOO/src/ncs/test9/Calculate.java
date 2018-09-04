@@ -1,0 +1,32 @@
+package ncs.test9;
+
+public class Calculate {
+	
+	public Calculate(){}
+	
+	public int sum(int a, int b){
+		return a + b;
+	}
+	
+	public int subtract(int a, int b){ 
+		return a - b;
+	}
+	
+	public int multiply(int a, int b){ 
+		return a * b;
+	}
+	
+	public int divide(int a, int b){ 
+		/*int result;
+		if( b <= 0){
+			result = 0;
+		} else {
+			result = a / b;
+		}
+		
+		return result;*/
+		
+		// short hand
+		return (b <= 0) ? 0 : (a/b);
+	} 
+}

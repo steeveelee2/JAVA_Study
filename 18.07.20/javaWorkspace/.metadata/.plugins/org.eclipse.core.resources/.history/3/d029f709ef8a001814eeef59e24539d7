@@ -1,0 +1,18 @@
+package com.kh.inheritance;
+
+public class Child1 extends Parents{
+	
+	// 부모와 똑같은 메소드나 멤버 변수를 가질 수도 있다.
+	/*public void printStr() {
+		System.out.println("난 자식입니다!");
+	}*/
+	
+	// 부모와 같은 메소드이름으로 기능 제공 메소드를 선언할 때에는
+	// @Override 어노테이션을 달아준다.
+	// @(어노테이션)은 JVM이 컴파일 시에 
+	
+	public void printStr2() {
+		System.out.println("난 자식 클래스 입니다.");
+	}
+	
+}

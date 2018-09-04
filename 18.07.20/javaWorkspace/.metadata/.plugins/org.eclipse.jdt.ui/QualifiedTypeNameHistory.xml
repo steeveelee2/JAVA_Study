@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.kh.memoryVar.TestMemoryVar"/>
+<fullyQualifiedTypeName name="com.kh.variable.InputTest"/>
+<fullyQualifiedTypeName name="com.kh.loop.BeforeLoopTest"/>
+<fullyQualifiedTypeName name="com.kh.loop.IfTest"/>
+<fullyQualifiedTypeName name="com.kh.array.ArrayExercise"/>
+<fullyQualifiedTypeName name="com.kh.array.ArraySortExercise"/>
+<fullyQualifiedTypeName name="com.kh.multiArray.Sample"/>
+<fullyQualifiedTypeName name="com.kh.method.StaticMethodTest"/>
+<fullyQualifiedTypeName name="com.kh.emp.view.EmpView"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="com.kh.member.model.vo.Member"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.kh.overrideTest.model.vo.Book"/>
+<fullyQualifiedTypeName name="java.util.Objects"/>
+<fullyQualifiedTypeName name="com.kh.animal.model.vo.Cat"/>
+<fullyQualifiedTypeName name="com.kh.animal.model.vo.Animal"/>
+<fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+</qualifiedTypeNameHistroy>

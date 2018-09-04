@@ -1,0 +1,66 @@
+package com.kh.drink;
+
+public class Coffee {
+	private String name; // 커피 이름
+	private int price;
+	private double water; // 물의 양
+	private String origin; // 원산지
+	private int syrup; // 시럽의 양 (펌프 횟수)
+	private boolean isIce;
+	
+	public Coffee(){
+		name = "아메리카노";
+		price = 3000;
+		water = 1.5;
+		origin = "한국";
+		syrup = 0;
+		isIce = false;
+	}
+	
+	public Coffee(String name, int price,
+			double water, String origin,
+			int syrup, boolean isIce){
+		
+		this.name = name;
+		this.price = price;
+		this.water = water;
+		this.origin = origin;
+		this.syrup = syrup;
+		this.isIce = isIce;
+		
+	}
+	
+	// Setter & Getter
+	// setter
+	// public void set변수명(매개 변수){ ... }
+	
+	// getter
+	// public 반환자료형 get변수명(){
+	//    return 필드변수명;
+	// }
+	
+	public String getName(){
+		return this.name;
+	}
+	
+	public int getPrice(){
+		return this.price;
+	}
+	
+	public void setName(String name){
+		this.name = name;
+	}
+	
+	public void setPrice(int price){
+		this.price = price;
+	}
+	
+	public void coffeeInfo(){
+		System.out.println(name+", "+price);
+	}
+}
+
+
+
+
+

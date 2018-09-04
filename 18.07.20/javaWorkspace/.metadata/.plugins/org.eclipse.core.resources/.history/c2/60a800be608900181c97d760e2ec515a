@@ -1,0 +1,21 @@
+package ncs.test10;
+
+public class Book {
+	- category:String
+	- bookName:String
+	- bookPrice:double
+	- bookDiscountRate:double
+/*
+ * Book
+- category:String
+- bookName:String
+- bookPrice:double
+- bookDiscountRate:double
++Book()
++Book(category:StringbookName:String,
+bookPrice:double,
+bookDiscountRate:double)
++getXXX()
++setXXX() 
+ */
+}

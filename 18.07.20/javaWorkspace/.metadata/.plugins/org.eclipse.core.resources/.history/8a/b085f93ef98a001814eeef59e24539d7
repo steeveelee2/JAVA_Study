@@ -1,0 +1,14 @@
+package com.kh.member.model.vo;
+
+public class Member {
+	/* protected */
+	private String name;
+	private String grade;
+	private int point;
+	
+	// 공통된 요소를 하나로 모으고,
+	// 서로 다른 요소를 배제하여 부모 클래스를 만든다.
+	
+	, 
+	
+}

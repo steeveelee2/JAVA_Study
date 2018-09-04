@@ -1,0 +1,9 @@
+package com.kh.animal.model.vo;
+
+public class Dog {
+	// 1. 필드 변수 | 멤버 변수
+	
+	// ------ [초기화 블록] ------ (생략 가능)
+	
+	
+}

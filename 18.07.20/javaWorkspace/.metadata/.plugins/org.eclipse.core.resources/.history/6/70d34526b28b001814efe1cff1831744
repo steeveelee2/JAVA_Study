@@ -1,0 +1,5 @@
+package com.kh.animal.model.vo;
+
+public class Dog {
+	// 1. 필드 변수 | 멤버 변수
+}

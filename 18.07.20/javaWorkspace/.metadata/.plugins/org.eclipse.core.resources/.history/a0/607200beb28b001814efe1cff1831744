@@ -1,0 +1,51 @@
+package com.kh.animal.model.vo;
+
+public class Dog {
+	// 1. 필드 변수 | 멤버 변수
+	private String name;
+	private String type;
+	private double weight;
+	
+	// ------ [초기화 블록] ------ (생략 가능)
+	
+	// 2. 생성자
+	
+	public Dog(){}
+	
+	public Dog(String name, String type, double weight){
+		this.name = name;
+		this.type = type;
+		this.weight = weight; 
+	}
+	
+	// 3. 메소드
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getType() {
+		return type;
+	}
+
+	public void setType(String type) {
+		this.type = type;
+	}
+
+	public double getWeight() {
+		return weight;
+	}
+
+	public void setWeight(double weight) {
+		this.weight = weight;
+	}
+	
+	
+}
+
+
+

@@ -1,0 +1,79 @@
+package com.kh.drink;
+
+import java.util.Scanner;
+
+public class StarBigs2 {
+
+	public static final int EA = 10;
+	public static int count; 
+	
+	public static void main(String[] args){
+		
+		Coffee[] coffeeArr = new Coffee[EA];
+		Scanner sc = new Scanner(System.in);
+		
+		do{
+			System.out.println("-- StarBigs 2호점 --");
+			System.out.println("1. 오늘의 커피");
+			System.out.println("2. 사용자 주문 커피");
+			System.out.println("3. 영수증 출력");
+			System.out.println("4. 종료하기");
+			System.out.print("메뉴 선택 : ");
+			int sel = sc.nextInt();
+			
+			switch(sel){
+			case 1:
+				coffeeArr[count++] = new Coffee();
+				break;
+			case 2:
+				inputCoffee(coffeeArr);
+				break;
+			case 3:
+				
+				break;
+			case 4:
+				System.out.println("프로그램을 종료합니다.");
+				return;
+			default:
+				System.out.println("잘못 입력 하셨습니다.");
+			}
+		} while(true);
+		
+	}
+	
+	
+	public static void inputCoffee(Coffee[] coffeeArr){
+		Scanner sc = new Scanner(System.in);
+		
+		for(int i = 0; i < EA ; i++){
+			System.out.println("커피 명 : ");
+			String name = sc.next();
+			
+			System.out.println("물의 양 : ");
+			double water = sc.nextDouble();
+			
+			System.out.println("원산지 : ");
+			String origin = sc.next();
+			
+			System.out.println("시럽 : ");
+			int syrup = sc.nextInt();
+			
+			System.out.println("얼음 (Y/N) : ");
+			boolean isIce
+			    = (sc.next().toUpperCase().charAt(0)
+			        == 'Y') true : false;
+			
+		}
+		
+	}
+	
+}
+
+
+
+
+
+
+
+
+

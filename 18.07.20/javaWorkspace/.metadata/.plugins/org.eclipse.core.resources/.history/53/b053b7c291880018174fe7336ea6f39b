@@ -1,0 +1,31 @@
+package com.kh.member.model.vo;
+
+public class Member {
+	// 회원 관리 프로그램에서 사용할 객체 틀
+	// 1. 필드 | 멤버 | 전역변수(global)
+	// (-;private < ~;default < #;protected < +;public)
+	
+	private String name;     // 이름
+	private String id;       // 아이디
+	private String password; // 비밀번호
+	private String email;    // 이메일
+	private String phone;    // 연락처
+	private char gender;     // 성별
+	private int age;         // 나이
+	
+	// 2. 생성자
+	// 기본 생성자 : 선언하지 않으면 JVM이 컴파일 시에  
+	//            자동으로 만들어 주지만,
+	//            이후 상속을 통해서 
+	public Member(){ }
+	
+	
+}
+
+
+
+
+
+
+
+

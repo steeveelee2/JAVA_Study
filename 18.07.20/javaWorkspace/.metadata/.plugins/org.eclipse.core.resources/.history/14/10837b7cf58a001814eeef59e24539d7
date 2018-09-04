@@ -1,0 +1,35 @@
+package com.kh.member.controller;
+
+import com.kh.member.model.vo.Gold;
+import com.kh.member.model.vo.Silver;
+import com.kh.member.model.vo.VIP;
+
+public class MemberManager {
+	private Silver[] silver = new Silver[10];
+	private Gold[] gold = new Gold[10];
+	private VIP[] vip = new VIP[10];
+	
+	private int silverCnt = 0;
+	private int goldCnt = 0;
+	private int vipCnt = 0;
+	
+	public MemberManager(){
+		
+	}
+	
+	public void insertSilver(Silver s){
+		this.silver[silverCnt++] = s;
+	}
+	
+	public void insertGold(Gold g){
+		this.gold[goldCnt++] = g;
+	}
+	
+	public void 
+	
+}
+
+
+
+
+

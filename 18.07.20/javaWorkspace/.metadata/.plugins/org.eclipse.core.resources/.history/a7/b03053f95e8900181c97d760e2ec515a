@@ -1,0 +1,15 @@
+package ncs.test9;
+
+public class CalcTest {
+
+	public static void main(String[] args) {
+		// 계산기 실행용 메소드
+		Calculate c = new Calculate();
+
+		c.sum(a, b);
+		c.subtract(a, b);
+		c.multiply(a, b);
+		c.divide(a, b);
+	}
+
+}

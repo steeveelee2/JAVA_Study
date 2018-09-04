@@ -1,0 +1,25 @@
+package com.kh.member.model.vo;
+
+public class VIP {
+	private String name;  // 회원 명
+	private String grade; // 자신의 등급
+	private int point;    // 회원의 포인트
+	private double incen; // 등급에 따른 포인트 이자 적립율
+	
+	public VIP(){ }
+	
+	public VIP(String name, String grade, int point){
+		this.name = name;
+		this.grade = grade;
+		this.point = point;
+		this.incen = point * 0.1;
+	}
+	
+	// Getter & Setter
+	
+}
+
+
+
+
+

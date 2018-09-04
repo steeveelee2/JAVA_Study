@@ -1,0 +1,10 @@
+package com.kh.member.model.vo;
+
+public class Member {
+	/* protected */
+	private String name;
+	private String grade;
+	private int point;
+	
+	
+}

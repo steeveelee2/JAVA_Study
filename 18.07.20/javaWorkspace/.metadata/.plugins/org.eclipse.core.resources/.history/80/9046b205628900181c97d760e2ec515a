@@ -1,0 +1,12 @@
+package ncs.test10;
+
+public class BookStore {
+
+	public static void main(String[] args) {
+		// book 객체 생성하기
+		Book book = new Book("IT", "HTML5", 30000, 0.15);
+		
+		
+	}
+
+}

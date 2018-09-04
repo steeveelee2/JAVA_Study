@@ -1,0 +1,15 @@
+package ncs.test10;
+
+public class BookUpdate {
+	private Book bookData;
+
+	public BookUpdate(){ }
+	
+	public BookUpdate(){
+		
+	}
+	+BookUpdate(bookData:Book)
+	+getBookData():Book
+	+updataBookPrice():void
+	+getXXX() +setXXX()
+}

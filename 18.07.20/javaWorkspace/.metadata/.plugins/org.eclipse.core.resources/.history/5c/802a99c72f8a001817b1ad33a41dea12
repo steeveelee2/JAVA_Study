@@ -1,0 +1,14 @@
+package com.kh.drink;
+
+public class StarBigs {
+
+	public static void main(String[] args) {
+		// 1. 일반 커피 주문
+		System.out.println("커피 하나 주세요~");
+		Coffee cof1 = new Coffee();
+		
+		System.out.println("---- 커피 내용 확인 ----");
+		System.out.println(cof1.name+", "+cof1.price);
+	}
+
+}

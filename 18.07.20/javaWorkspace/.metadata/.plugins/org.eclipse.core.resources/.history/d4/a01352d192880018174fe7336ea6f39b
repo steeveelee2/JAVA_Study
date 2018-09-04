@@ -1,0 +1,10 @@
+package com.kh.member.run;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// 실행 전용 메소드
+		Member m = new Member();
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.kh.inheritance;
+
+public class Child1 extends Parents{
+	
+	// 부모와 똑같은 메소드나 멤버 변수를 가질 수도 있다.
+	public void printStr(){
+		
+	}
+	
+	public void printStr2(){
+		System.out.println("난 자식 클래스 입니다.");
+	}
+	
+}

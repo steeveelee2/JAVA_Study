@@ -1,0 +1,14 @@
+package array;
+
+public class Test05 {
+	public static void main(String[] args){
+		int [][] array = {
+				{120, 410, 360, 560}, 
+				{820, 101, 120, 610}, 
+				{140, 160, 180, 780}, 
+				{450, 260, 720, 230}}; 
+		
+		int max = 0, min = 100;
+		
+	}
+}

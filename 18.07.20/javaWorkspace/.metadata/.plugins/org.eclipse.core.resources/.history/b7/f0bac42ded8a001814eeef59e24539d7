@@ -1,0 +1,9 @@
+package com.kh.inheritance;
+
+public class Child1 extends Parents{
+	
+	public void printStr2(){
+		System.out.println("난 자식 클래스 입니다.");
+	}
+	
+}

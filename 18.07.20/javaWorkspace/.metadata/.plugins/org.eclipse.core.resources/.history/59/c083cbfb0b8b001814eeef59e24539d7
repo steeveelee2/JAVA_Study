@@ -1,0 +1,15 @@
+package com.kh.overrideTest.run;
+
+import com.kh.overrideTest.model.vo.Book;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// 오버라이딩 테스트
+		Book bk1 = new Book("어린왕자", "생텍쥐페리", 15000);
+		
+		System.out.println(bk1);
+		System.out.println(bk1.toString());
+	}
+
+}

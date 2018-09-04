@@ -1,0 +1,10 @@
+package com.kh.inheritance;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// 
+
+	}
+
+}
